@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+:root {
+  --primary-color: #0088cb;
+  --navBorder-color: #0088cb;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "muli";
+}
+
+.navbar-brand {
+  color: gray !important;
+  font-size: 25px !important;
+  font-weight: 600;
+}
+nav {
+  height: 15vh;
+}
+.navbar-light .navbar-toggler {
+  border: none !important;
+  outline: none;
+}
+.nav-item .nav-link {
+  font-size: 18px !important;
+  margin-left: 10px;
+}
+
+.nav-item .nav-link:hover {
+  border-bottom: 2px solid var(--navBorder-color);
+  padding-bottom: 0;
+  transition: 0.3s ease-out;
+}
