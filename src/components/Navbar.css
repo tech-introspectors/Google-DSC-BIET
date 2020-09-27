@@ -19,7 +19,7 @@
 .navbarSticky {
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: #ffff;
   z-index: 999;
   transition: 0.5s;
 }
