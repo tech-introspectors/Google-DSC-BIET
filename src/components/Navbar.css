@@ -16,6 +16,13 @@
   font-size: 25px !important;
   font-weight: 600;
 }
+.navbarSticky {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
+  transition: 0.5s;
+}
 nav {
   height: 15vh;
 }
