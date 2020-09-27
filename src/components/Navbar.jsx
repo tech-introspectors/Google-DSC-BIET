@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="container">
+      <div className="container navbarSticky">
         <nav className="navbar navbar-expand-lg navbar-light ">
           <Link className="navbar-brand" to="/">
             DSC BIET
