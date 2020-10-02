@@ -1,6 +1,5 @@
 import React from "react";
 import "./HeroSection.css";
-// import { Link } from "react-dom";
 
 function HeroSection({
   headline,
