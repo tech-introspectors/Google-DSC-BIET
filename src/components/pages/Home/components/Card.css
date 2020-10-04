@@ -1,0 +1,32 @@
+.card_container {
+  width: 100%;
+  padding: 25px;
+}
+
+.card_container img {
+  width: 80px;
+  padding-bottom: 20px;
+}
+
+.card_container h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card_content {
+  width: 350px;
+  height: 190px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tech_bg_color {
+  background-color: rgba(10, 145, 255, 0.103);
+  padding-bottom: 20px;
+}
+.tech_bg_color h1 {
+  padding-top: 50px;
+  font-size: 35px;
+}
