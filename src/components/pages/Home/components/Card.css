@@ -14,12 +14,18 @@
 }
 
 .card_content {
-  width: 350px;
+  width: 320px;
   height: 190px;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+  box-shadow: 10px 15px 30px 10px rgba(0, 0, 0, 0.152);
+}
+
+.card_content:hover {
+  transform: scale(1.1);
 }
 
 .tech_bg_color {
