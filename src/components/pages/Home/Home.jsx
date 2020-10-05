@@ -8,9 +8,12 @@ import {
   TitleCenter1,
   TitleCenter2,
   TitleCenter3,
+  TitleCenter4,
 } from "./data/TitleCenterData";
+import Form from "../Home/components/Form";
 
 import "../Home/Home.css";
+import Button from "./components/Button";
 
 export default function Home() {
   return (
@@ -31,49 +34,49 @@ export default function Home() {
               <TitleCenter {...TitleCenter1} />
             </div>
             <div className="row d-flex justify-content-center">
-              <div className="col-4">
+              <div className="col-lg-4 col-md-12">
                 <Card
                   img={Card_Details[0].img}
                   tech_Name={Card_Details[0].tech_Name}
                 />
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-12">
                 <Card
                   img={Card_Details[1].img}
                   tech_Name={Card_Details[1].tech_Name}
                 />
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-12">
                 <Card
                   img={Card_Details[2].img}
                   tech_Name={Card_Details[2].tech_Name}
                 />
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-12">
                 <Card
                   img={Card_Details[3].img}
                   tech_Name={Card_Details[3].tech_Name}
                 />
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-12">
                 <Card
                   img={Card_Details[4].img}
                   tech_Name={Card_Details[4].tech_Name}
                 />
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-12">
                 <Card
                   img={Card_Details[5].img}
                   tech_Name={Card_Details[5].tech_Name}
                 />
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-12">
                 <Card
                   img={Card_Details[6].img}
                   tech_Name={Card_Details[6].tech_Name}
                 />
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-12">
                 <Card
                   img={Card_Details[7].img}
                   tech_Name={Card_Details[7].tech_Name}
@@ -97,7 +100,7 @@ export default function Home() {
         <div className="form_bg_color">
           <div className="container ">
             <div className="row">
-              <div className="col-6">
+              <div className="col-lg-6 col-md-12">
                 <h1>Have an Awesome Idea, Lets BrainStorm</h1>
                 <p className="mb-1">
                   <b>Input:</b>
@@ -121,11 +124,24 @@ export default function Home() {
                   <b>Output: </b>helpReceived()
                 </p>
               </div>
-              <div className="col-6">
-                <div className="row form_style"></div>
+              <div className="col-lg-6 col-md-12 form_container">
+                <div className="form_content">
+                  <Form placeholder="Name*" />
+                  <Form placeholder="Email*" />
+                  <Form placeholder="Branch*" />
+                  <Form placeholder="Year*" />
+                  <Form placeholder="Idea*" />
+                  <Button text="SUBMIT IDEA" buttonSize="50px" />
+                </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="tech_bg_color">
+          <div className="text-center">
+            <TitleCenter {...TitleCenter3} />
+          </div>
+          <div className="container faq_container "></div>
         </div>
       </div>
     </>
