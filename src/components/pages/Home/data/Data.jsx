@@ -1,11 +1,7 @@
-const img1 =
-  "https://dscvjit.now.sh/_next/static/images/home-875df7ff864cdbe3f228360a1b1e263f.webp";
-const img2 =
-  "https://dscvjit.now.sh/_next/static/images/home-why-5805cb37a2f61693cac242bbc31f9aa3.webp";
-const img3 =
-  "https://dscvjit.now.sh/_next/static/images/home-what-4f05666e7523ac815f6944dff3065ea2.webp";
-const img4 =
-  "https://dscvjit.now.sh/_next/static/images/home-last-ac7f0b7c76524cf8d99c6bb1b3fbbad1.png";
+import img1 from "../../../../asserts/s1.webp";
+import img2 from "../../../../asserts/s2.webp";
+import img3 from "../../../../asserts/s3.webp";
+import img4 from "../../../../asserts/s4.png";
 
 export const homeObjOne = {
   headline: "Developers Student Clubs BIET",
