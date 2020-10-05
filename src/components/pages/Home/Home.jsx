@@ -9,9 +9,6 @@ import { TitleCenter1 } from "./data/TitleCenterData";
 import "../Home/Home.css";
 
 export default function Home() {
-  // function ncards(val) {
-  //   return <Card img={val.img} tech_Name={val.tech_Name} />;
-  // }
   return (
     <>
       <div>
@@ -26,26 +23,54 @@ export default function Home() {
             <div className="text-center">
               <TitleCenter {...TitleCenter1} />
             </div>
-            <div className="row d-flex">
-              {/* <div className="col-4">{Card_Details.map(ncards)}</div> */}
-
+            <div className="row d-flex justify-content-center">
               <div className="col-4">
-                <Card />
+                <Card
+                  img={Card_Details[0].img}
+                  tech_Name={Card_Details[0].tech_Name}
+                />
               </div>
               <div className="col-4">
-                <Card />
+                <Card
+                  img={Card_Details[1].img}
+                  tech_Name={Card_Details[1].tech_Name}
+                />
               </div>
               <div className="col-4">
-                <Card />
+                <Card
+                  img={Card_Details[2].img}
+                  tech_Name={Card_Details[2].tech_Name}
+                />
               </div>
               <div className="col-4">
-                <Card />
+                <Card
+                  img={Card_Details[3].img}
+                  tech_Name={Card_Details[3].tech_Name}
+                />
               </div>
               <div className="col-4">
-                <Card />
+                <Card
+                  img={Card_Details[4].img}
+                  tech_Name={Card_Details[4].tech_Name}
+                />
               </div>
               <div className="col-4">
-                <Card />
+                <Card
+                  img={Card_Details[5].img}
+                  tech_Name={Card_Details[5].tech_Name}
+                />
+              </div>
+              <div className="col-4">
+                <Card
+                  img={Card_Details[6].img}
+                  tech_Name={Card_Details[6].tech_Name}
+                />
+              </div>
+              <div className="col-4">
+                <Card
+                  img={Card_Details[7].img}
+                  tech_Name={Card_Details[7].tech_Name}
+                />
               </div>
             </div>
           </div>

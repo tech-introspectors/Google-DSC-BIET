@@ -4,7 +4,7 @@ import img3 from "../../../../asserts/android.svg";
 import img4 from "../../../../asserts/robot.svg";
 import img5 from "../../../../asserts/python.svg";
 import img6 from "../../../../asserts/javascript.svg";
-import img7 from "../../../../asserts/responsive.svg";
+import img7 from "../../../../asserts/reactjs.svg";
 import img8 from "../../../../asserts/java.svg";
 
 const Card_Details = [
