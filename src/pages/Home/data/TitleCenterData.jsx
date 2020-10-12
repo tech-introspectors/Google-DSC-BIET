@@ -15,8 +15,3 @@ export const TitleCenter3 = {
     "The below are some of the frequently asked questions by the students",
 };
 
-export const TitleCenter4 = {
-  title: "Subscribe to our newsletter",
-  description:
-    "By subscribing to the newsletter, you will be able to get constant update regarding workshops, events from us",
-};

@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "../../HeroSection";
+import HeroSection from "../../components/HeroSection";
 import TitleCenter from "./components/TitleCenter";
 import Card from "./components/Card";
 import Card_Details from "./data/Card_Details";
@@ -8,12 +8,14 @@ import {
   TitleCenter1,
   TitleCenter2,
   TitleCenter3,
-  TitleCenter4,
 } from "./data/TitleCenterData";
 import Form from "../Home/components/Form";
+import Button from "./components/Button";
+import FaQ from "./components/FaQ";
 
 import "../Home/Home.css";
-import Button from "./components/Button";
+
+
 
 export default function Home() {
   return (
@@ -137,12 +139,19 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+         {/* FAQ section ----------->>>>  */}
         <div className="tech_bg_color">
           <div className="text-center">
             <TitleCenter {...TitleCenter3} />
           </div>
-          <div className="container faq_container "></div>
+            <FaQ  />
         </div>
+         {/* FAQ section ----------->>>> end */}
+
+
+
+        {/* Footer ----------------->>>>>  */}
       </div>
     </>
   );

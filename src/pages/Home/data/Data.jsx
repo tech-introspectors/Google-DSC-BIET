@@ -1,7 +1,7 @@
-import img1 from "../../../../asserts/s1.webp";
-import img2 from "../../../../asserts/s2.webp";
-import img3 from "../../../../asserts/s3.webp";
-import img4 from "../../../../asserts/s4.png";
+import img1 from "../../../asserts/s1.webp";
+import img2 from "../../../asserts/s2.webp";
+import img3 from "../../../asserts/s3.webp";
+import img4 from "../../../asserts/s4.png";
 
 export const homeObjOne = {
   headline: "Developers Student Clubs BIET",
