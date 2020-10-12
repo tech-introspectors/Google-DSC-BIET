@@ -3,8 +3,8 @@
 }
 
 .form_bg_color {
-  height: 100vh;
-  background-image: url("../../../asserts/wave.png");
+  height: 650px;
+  background-image: url("../../asserts/wave.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-color: rgba(10, 145, 255, 0.103);
@@ -35,8 +35,50 @@
   padding: 35px 20px;
 }
 
+@media screen and (max-width: 992px){
+  .form_bg_color{
+    height: 1050px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* FAQ style*/
 .faq_container {
   background-color: #fff;
-  height: 45vh;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
   border-radius: 10px;
+  padding: 50px;
+  transition: .3s ease-in;
+}
+
+.faq_content{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+ 
+}
+.accordion__button{
+    outline: none !important;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#f5f9ff;
+}
+
+.accordion__button:hover{
+  background-color: blue;
+  color: white;
+  transition: .3s ease-in;
+}
+.accordion-content{
+  color: grey;
 }
