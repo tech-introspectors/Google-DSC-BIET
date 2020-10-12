@@ -7,6 +7,8 @@ import Team from "./pages/Team/Team";
 import Contact from "./pages/Contact/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+// App component
+ 
 export default function App() {
   return (
     <>
