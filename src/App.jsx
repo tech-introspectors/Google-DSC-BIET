@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home";
-import Events from "./components/pages/Events/Events";
-import Projects from "./components/pages/Projects/Projects";
-import Team from "./components/pages/Team/Team";
-import Contact from "./components/pages/Contact/Contact";
+import Events from "./pages/Events/Events";
+import Projects from "./pages/Projects/Projects";
+import Team from "./pages/Team/Team";
+import Contact from "./pages/Contact/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
