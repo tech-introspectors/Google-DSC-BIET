@@ -12,8 +12,11 @@ import {
 import Form from "../Home/components/Form";
 import Button from "./components/Button";
 import FaQ from "./components/FaQ";
+import Footer from "../../components/Footer";
 
 import "../Home/Home.css";
+
+
 
 
 
@@ -133,7 +136,7 @@ export default function Home() {
                   <Form placeholder="Branch*" />
                   <Form placeholder="Year*" />
                   <Form placeholder="Idea*" />
-                  <Button text="SUBMIT IDEA" buttonSize="50px" />
+                  <Button text="SUBMIT IDEA" column = "12" buttonSize="50px" />
                 </div>
               </div>
             </div>
@@ -152,6 +155,7 @@ export default function Home() {
 
 
         {/* Footer ----------------->>>>>  */}
+        <Footer />
       </div>
     </>
   );
