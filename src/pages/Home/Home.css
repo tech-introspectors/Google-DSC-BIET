@@ -3,12 +3,12 @@
 }
 
 .form_bg_color {
-  height: 650px;
+  padding: 50px;
   background-image: url("../../asserts/wave.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-color: rgba(10, 145, 255, 0.103);
-  padding-bottom: 20px;
+  overflow: hidden;
 }
 
 .form_bg_color h1 {
@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 992px){
   .form_bg_color{
-    height: 1050px;
+    height: 1200px;
   }
 }
 
@@ -87,9 +87,18 @@
 
 /* Footer_style */
 
+.footer_bg{
+  height: 90vh;
+  background-image: url('../../asserts/wave.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  
+}
 .footer{
   padding-top: 50px;
   height: 90vh;
+ 
 }
 
 .footer h2{
@@ -154,6 +163,7 @@
 .footer h5{
   line-height: 12vh;
 }
+
 
 @media screen and (max-width: 992px){
   .footer .custome_form{
