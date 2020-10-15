@@ -1,0 +1,90 @@
+.contact_container .custom_heading{
+    color: blue;
+    font-weight: 600;
+    margin-top: 20vh;
+    margin-bottom: 30px;
+}
+
+.contact_container p{
+    color: gray;
+    margin-bottom: 200px;
+}
+
+.contact_container img{
+    transform: translateY(-50px);
+}
+
+.contact_container textarea{
+    border-color: rgba(128, 128, 128, 0.356);
+    padding:10px;
+    min-height: 50px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.contact_container .send_message_btn{
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+}
+
+.contact_container .card_container{
+   display: flex;
+   justify-content: space-between;
+    
+}
+.card_container .custom_card{
+    height: 220px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 50px;
+
+}
+
+.card_container .custom_card:hover{
+    transform: scale(1.05);
+    
+}
+.card_container .custom_card .title {
+    position: absolute;
+    bottom: 50px;
+    left: 45%;
+    right: auto;
+}
+
+.card_container .custom_card .mail{
+    position: relative;
+    top: 130px;
+    text-align: center;
+}
+
+.card_container a{
+    padding: 30px 25px;
+    height: 80px;
+    width: 80px;
+    background-color: cadetblue;
+    color: blue;
+    background-color: #edf5ff;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 42%;
+    right: auto;
+}
+
+.card_container .custom_icon{
+    font-size: 30px;
+}
+
+.card_container .custom_icon:hover{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    
+}
+.card_container .circle:hover{
+    color: #fff;
+    background-color: blue;
+}
