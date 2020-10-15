@@ -22,7 +22,7 @@ const Footer = () => {
 
     return (
         <>
-            <div id = "wave">
+          <div className = "container-fluid footer_bg">  
             <div className="container footer">
                 <h2 className = "text-center">Subscribe to our newsletter</h2>
                 <p className = "text-center">
