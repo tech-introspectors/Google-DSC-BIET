@@ -16,6 +16,7 @@ export default function Contact() {
     <div className = "contact_container">
       <div className="container">
         <h2 className = "text-center custom_heading">Lets Talk !</h2>
+        <div className = "border_animation"></div>
         <p className = "text-center">Would like to sponsor an event. Get in touch with us!</p>
 
        <div className = "row">
@@ -60,7 +61,7 @@ export default function Contact() {
       </div>
 
       </div>
-      <Footer />
+    
     </div>  
     </>
   );
