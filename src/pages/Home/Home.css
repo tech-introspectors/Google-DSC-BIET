@@ -1,3 +1,52 @@
+/* ANIMATION */
+._shapeAnimation{
+  position: relative;
+}
+
+
+._shapeAnimation::before{
+  content: "";
+  height: 120px;
+  width: 120px;
+  background-color: rgba(255, 0, 0,0.15);
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  top: 20px;
+  left: 0;
+  animation: _RotateCircle 4s linear infinite alternate;
+}
+
+@keyframes _RotateCircle{
+  from{
+    transform: rotateY(50deg) translate(150px, 0px);
+
+  }
+  to{
+    transform: rotateY(360deg) translate(150px, 150px);
+  }
+}
+
+
+
+._shapeAnimation::after{
+  content: "";
+  height: 100vh;
+  width: 100vh;
+  background-color: rgba(0, 195, 255,0.15);
+  position: absolute;
+  top: 0;
+  right: -40%;
+  z-index: -1;
+  border-radius: 50%;
+ 
+}
+/* ANIMATION END */
+
+.main{
+  overflow: hidden;
+}
+
 .recent_project h1 {
   padding-top: 50px;
 }
@@ -108,6 +157,69 @@
   }
 }
 
+.footer::after{
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: #D6E4F0;
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: -1;
+  animation: _moveBigCircle 3s infinite alternate;
+}
+
+@keyframes _moveBigCircle{
+  from{
+    bottom: 0px;
+  }
+  to{
+    bottom: 250px;
+  }
+}
+
+
+.footer_bg{
+  position: relative;
+}
+.footer_bg::before{
+   content: "";
+   position: absolute;
+   height: 50px;
+   width: 50px;
+   background-color: red;
+   right: 130px;
+   left: auto;
+   margin-top: 50px;
+   border-radius: 50%;
+   opacity: 0.1;
+   animation: _moveRightCircle 3s linear infinite alternate;
+
+}
+
+@keyframes _moveRightCircle{
+  from{
+    top: 0;
+  }
+  to{
+    top: 40px;
+  }
+}
+
+.footer_bg::after{
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  right: 150px;
+  left: auto;
+  background-color: #D6E4F0;
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: -1;
+  animation: _moveBigCircle 3s infinite alternate;
+}
+
 .footer{
   padding-top: 50px;
   height: 90vh;
@@ -198,6 +310,15 @@
     box-shadow: 0 20px 40px 0 rgba(0,0,0,.1);
     outline: none !important;
     border: none;
+  }
+  .footer::after{
+    display: none;
+  }
+  .footer_bg::before{
+    right: 40px;
+  }
+  .footer_bg::after{
+    display: none;
   }
 }
 

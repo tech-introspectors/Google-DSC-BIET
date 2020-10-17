@@ -8,10 +8,13 @@ function HeroSection({
   img,
   alt,
 }) {
+
+  
   return (
     <>
-      <div className="home__hero-section container">
-        <div className="container">
+    
+      <div className="home__hero-section container" >
+        <div className="container" >
           <div
             className="row home__hero-row"
             style={{
@@ -34,6 +37,7 @@ function HeroSection({
           </div>
         </div>
       </div>
+     
     </>
   );
 }
