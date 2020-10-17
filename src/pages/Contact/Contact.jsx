@@ -13,8 +13,8 @@ import Button from "../Home/components/Button";
 export default function Contact() {
   return (
     <>
-    <div className = "contact_container">
-      <div className="container">
+    <div id = "egg" >
+      <div className="container contact_container" id = "star-five ">
         <h2 className = "text-center custom_heading">Lets Talk !</h2>
         <div className = "border_animation"></div>
         <p className = "text-center">Would like to sponsor an event. Get in touch with us!</p>
@@ -59,9 +59,10 @@ export default function Contact() {
             <p className = "mail">Ibrahimpatnam, BIET</p>
         </div>
       </div>
-
+     
       </div>
-    
+      
+      <Footer />
     </div>  
     </>
   );

@@ -5,37 +5,10 @@
     margin-bottom: 30px;
 }
 
-.border_animation{
-    width: 100px;
-    height:4px;
-    border-radius: 15px;
-    background: blue;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
-.border_animation::after{
-    content: "";
-    position: absolute;
-    height: 4px;
-    width: 5px;
-    background: white;
-    animation: move 2.5s linear infinite;
-}
-
-@keyframes move{
-    from{
-        left: 0px;
-    }
-    to{
-        left: 95px;
-    }
-}
-
 .contact_container p{
     color: gray;
     margin-bottom: 200px;
+    position: relative;
 }
 
 .contact_container img{
@@ -116,3 +89,119 @@
     color: #fff;
     background-color: blue;
 }
+
+
+
+/* ANIMATION -------> */
+.border_animation{
+    width: 100px;
+    height:4px;
+    border-radius: 15px;
+    background: blue;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.border_animation::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 5px;
+    background: white;
+    animation: move 2.5s linear infinite;
+}
+
+@keyframes move{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 95px;
+    }
+}
+
+.contact_container::before{
+    content: "";
+    width: 0;
+    height: 0;
+    left: 50px;
+    border-top: 90px solid transparent;
+    border-right: 150px solid rgba(0, 255, 179,0.19);
+    border-bottom: 90px solid transparent;
+    position: absolute;
+    animation: rotate 20s linear infinite alternate;
+}
+@keyframes rotate{
+   from{
+       transform: rotate(0deg);
+   }to{
+       transform: rotate(360deg);
+   }
+}
+
+
+.contact_container::after{
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 2px solid gray;
+    opacity: 0.5;
+    border-radius: 50%;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: rotate_circle 12s linear infinite alternate;
+}
+
+@keyframes rotate_circle{
+    0%{
+        transform: translateX(50px);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateX(-60px);
+    }
+    75%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateX(60px);
+    }  
+}
+
+#egg{
+    position: relative;
+    overflow: hidden;
+}
+#egg::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    left: auto;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(214, 0, 161);
+    opacity: 0.2;
+    border-radius: 80% 60% 50% 90% /50% 60% 60% 90%;
+    animation: move_top 4s linear infinite alternate;
+  }
+
+@keyframes move_top{
+    from{
+        top: 0;
+    }
+    to{
+        top: 50px;
+    }
+}
+
+
+
+    
+    

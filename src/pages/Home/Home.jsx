@@ -23,9 +23,9 @@ import "../Home/Home.css";
 export default function Home() {
   return (
     <>
-      <div>
-        <div className="container">
-          <HeroSection {...homeObjOne} />
+      <div className = "main">
+        <div className="container _shapeAnimation" >
+          <HeroSection {...homeObjOne}  />
           <HeroSection {...homeObjTwo} />
           <HeroSection {...homeObjThree} />
           <HeroSection {...homeObjFour} />
