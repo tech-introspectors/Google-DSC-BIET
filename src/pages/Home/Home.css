@@ -327,6 +327,7 @@
 
 .custom_heading{
   letter-spacing: 2px;
+  font-size: 35px;
 }
 
 .btn_custom_container{
@@ -343,7 +344,7 @@
   outline: 0;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
   font-weight: bold !important;
-  letter-spacing: 1px;
+  font-size: 15px !important;
 }
 .btn_customs:hover{
   transition: 0.3s ease-in;
