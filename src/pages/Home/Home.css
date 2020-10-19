@@ -330,22 +330,12 @@
   font-size: 35px;
 }
 
-.btn_custom_container{
-  position: relative;
-  width: 100% !important;
-  height: 8vh;
-  
-
-}
-.btn_customs{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  outline: 0;
+.contact_container .btn_customs{
+  font-weight: bold;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
-  font-weight: bold !important;
-  font-size: 15px !important;
+  transition: 0.5s ease-in-out;
 }
-.btn_customs:hover{
-  transition: 0.3s ease-in;
+
+.contact_container .btn_customs:hover{
+  transform: scale(1.05);
 }
