@@ -1,66 +1,73 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "../components/Navbar.css";
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import './Navbar.css';
+import { IconContext } from 'react-icons/lib';
+import { BsList } from "react-icons/bs";
 
-export default function Navbar() {
-  const [click, setClick] = useState(false);
-  const handlClick = () => setClick(!click);
+function Navbar() {
+    const [click, setClick] = useState(false);
+    const [button, setButton] = useState(false);
 
-  return (
-    <>
-      <div className="navbarSticky">
-        <div className="container ">
-          <nav className="navbar navbar-expand-lg navbar-light ">
-            <Link className="navbar-brand" to="/">
-              DSC BIET
-            </Link>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              onClick={handlClick}
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div
-              className="collapse navbar-collapse "
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li className="nav-item active ">
-                  <Link className="nav-link" aria-current="page" to="/">
-                    Home <span className="sr-only"></span>
-                  </Link>
-                </li>
-                <li className="nav-item ">
-                  <Link className="nav-link" to="/events">
-                    Events
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="projects">
-                    Projects
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="team">
-                    Team
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="contact">
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </>
-  );
+    const handleClick = () => setClick(!click);
+    const closeMoblileMenu = () => setClick(false);
+
+    const showButton = () => {
+        if (window.innerWidth <= 960) {
+            setButton(false);
+        } else {
+            setButton(true);
+        }
+    };
+
+
+    return (
+        <>
+            <IconContext.Provider value={{ color: ' gray' }}>
+                <div className='navbar'>
+                    <div className='navbar-container container'>
+                        <Link to='/' className='navbar-logo' onClick = {closeMoblileMenu}>
+                           
+                        DSC BIET
+                    </Link>
+
+                        <div className='menu-icon' onClick={handleClick}>
+                            {click ? <FaTimes /> : <FaBars />}
+                        </div>
+                        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                            <li className="nav-item">
+                                <Link to='/' className='nav-links'onClick = {closeMoblileMenu}>
+                                    Home
+                          </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to='/events' className='nav-links' onClick = {closeMoblileMenu}>
+                                    Events
+                          </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to='/projects' className='nav-links' onClick = {closeMoblileMenu}>
+                                    Projects
+                          </Link>
+                            </li>
+                             <li className="nav-item">
+                                <Link to='/team' className='nav-links' onClick = {closeMoblileMenu}>
+                                    Team
+                          </Link>
+                            </li>
+                             <li className="nav-item">
+                                <Link to='/contact' className='nav-links' onClick = {closeMoblileMenu}>
+                                    Contact
+                          </Link>
+                            </li>
+                           
+                        </ul>
+
+                    </div>
+                </div>
+            </IconContext.Provider>
+        </>
+    )
 }
+
+export default Navbar;
