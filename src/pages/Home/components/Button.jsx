@@ -6,6 +6,7 @@ export default function Button(props) {
   const style  = {
     height: `${props.buttonSize}`, 
     width: `${props.buttonWidth}`,
+    borderRadius: `${props.borderRadius}`,
     borderTopLeftRadius: `${props.TopLeft_Radius}`,
     borderBottomLeftRadius: `${props.BottomLeft_Radius}`,
     borderTopRightRadius: `${props.TopRight_Radius}`,
