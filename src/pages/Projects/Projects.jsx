@@ -1,11 +1,30 @@
 import React from "react";
+import Footer from '../../components/Footer';
+import Button from '../Home/components/Button';
+import '../Home/Home.css';
 
 export default function Projects() {
   return (
     <>
-      <div className="container">
-        <h1>Projects page</h1>
+       <div id = "egg" >
+        <div className="container contact_container" id = "star-five ">
+          <h2 className = "text-center custom_heading">Our Projects</h2>
+           
+          <div className = "btn_custom_container">
+            <Button 
+              text = "ADD  YOUR PROJECT"
+              column = "2"
+              buttonSize = '50px'
+              buttonWidth = '250px'
+              borderRadius = "5px"
+              btn_customStyle = "btn_customs"
+            />
+           
+        </div>
       </div>
+      
+      <Footer />
+    </div>  
     </>
   );
 }
