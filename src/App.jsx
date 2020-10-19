@@ -5,24 +5,23 @@ import Events from "./pages/Events/Events";
 import Projects from "./pages/Projects/Projects";
 import Team from "./pages/Team/Team";
 import Contact from "./pages/Contact/Contact";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 // App component
  
 export default function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Home />
+      
+      <Navbar />
         <Switch>
-          <Route  path="/" exact component={Home} />
-          <Route exact path="/events" component={Events} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/team" component={Team} />
-          <Route exact path="/contact" component={Contact} />
+          <Route default path="/" exact component={Home} />
+          <Route  path="/events"  component={Events} />
+          <Route  path="/projects"  component={Projects} />
+          <Route  path="/team"  component={Team} />
+          <Route  path="/contact"  component={Contact} />
         </Switch>
-      </Router>
+      
     </>
   );
 }

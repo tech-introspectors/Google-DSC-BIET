@@ -57,15 +57,16 @@
     justify-content: end;
   }
   
+  a.active_menu{
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+  }
   .nav-item {
     line-height: 60px;
     border-bottom: 2px solid transparent;
     text-decoration:none !important;
   }
   
-  .nav-item:hover {
-    border-bottom: 2px solid #0056b3;
-  }
   
   .nav-links {
     color: gray;
