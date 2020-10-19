@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
-import { BsList } from "react-icons/bs";
+import Home from '../pages/Home/Home';
+import './Navbar.css';
 
-function Navbar() {
+
+export default function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(false);
 
@@ -26,39 +27,38 @@ function Navbar() {
             <IconContext.Provider value={{ color: ' gray' }}>
                 <div className='navbar'>
                     <div className='navbar-container container'>
-                        <Link to='/' className='navbar-logo' onClick = {closeMoblileMenu}>
-                           
+                        <NavLink  to='/' className='navbar-logo' onClick = {closeMoblileMenu}>   
                         DSC BIET
-                    </Link>
+                    </NavLink>
 
                         <div className='menu-icon' onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
                         </div>
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className="nav-item">
-                                <Link to='/' className='nav-links'onClick = {closeMoblileMenu}>
+                                <NavLink exact activeClassName = "active_menu" to='/' className='nav-links'onClick = {closeMoblileMenu}>
                                     Home
-                          </Link>
+                          </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link to='/events' className='nav-links' onClick = {closeMoblileMenu}>
+                                <NavLink exact activeClassName = "active_menu" to='/events' className='nav-links' onClick = {closeMoblileMenu}>
                                     Events
-                          </Link>
+                          </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link to='/projects' className='nav-links' onClick = {closeMoblileMenu}>
+                                <NavLink exact activeClassName = "active_menu" to='/projects' className='nav-links' onClick = {closeMoblileMenu}>
                                     Projects
-                          </Link>
+                          </NavLink>
                             </li>
                              <li className="nav-item">
-                                <Link to='/team' className='nav-links' onClick = {closeMoblileMenu}>
+                                <NavLink exact activeClassName = "active_menu" to='/team' className='nav-links' onClick = {closeMoblileMenu}>
                                     Team
-                          </Link>
+                          </NavLink>
                             </li>
                              <li className="nav-item">
-                                <Link to='/contact' className='nav-links' onClick = {closeMoblileMenu}>
+                                <NavLink exact activeClassName = "active_menu" to='/contact' className='nav-links' onClick = {closeMoblileMenu}>
                                     Contact
-                          </Link>
+                          </NavLink>
                             </li>
                            
                         </ul>
@@ -66,8 +66,7 @@ function Navbar() {
                     </div>
                 </div>
             </IconContext.Provider>
+            
         </>
     )
 }
-
-export default Navbar;
