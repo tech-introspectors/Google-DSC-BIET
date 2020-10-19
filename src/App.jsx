@@ -15,7 +15,7 @@ export default function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route  path="/" exact component={Home} />
           <Route exact path="/events" component={Events} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/team" component={Team} />
