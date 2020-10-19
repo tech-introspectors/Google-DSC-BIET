@@ -14,6 +14,7 @@ export default function App() {
     <>
       <Router>
         <Navbar />
+        <Home />
         <Switch>
           <Route  path="/" exact component={Home} />
           <Route exact path="/events" component={Events} />
