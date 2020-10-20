@@ -43,23 +43,6 @@ export default function Contact() {
           />
          </div>
        </div>
-        
-      {/* <div className = "row card_container d-flex justify-content-center">
-        <div className = "custom_card col-md-5 col-xl-5 col-sm-12">
-            <a href = "#" target = "_blank" className = "circle">
-                <FiAtSign  className = "custom_icon"/>
-            </a>
-            <h2 className = "title">Email</h2>
-            <p className = "mail">teamintrospectors@gmail.com</p>
-        </div>
-        <div className = "custom_card col-md-5 col-xl-5 col-sm-12">
-            <a href = "#" target = "_blank" className = "circle">
-                <MdLocationOn  className = "custom_icon"/>
-            </a>
-            <h2 className = "title">Address</h2>
-            <p className = "mail">Ibrahimpatnam, BIET</p>
-        </div>
-      </div> */}
 
       <div className = "row d-flex justify-content-center container custom__card">
        
