@@ -22,7 +22,7 @@ function HeroSection({
               flexDirection: imgStart === "start" ? "row-reverse" : "row",
             }}
           >
-            <div className="lg-col-7 sm-col-12">
+            <div className="col-lg-6 col-sm-12 col-md-12">
               <div className="home__hero-text-wrapper">
                 <h1 className="heading">{headline}</h1>
                 <div className = "border_animation ml-0"></div>
