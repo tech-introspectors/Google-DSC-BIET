@@ -160,5 +160,9 @@
       width: 100%;
       height: 120px;
     }
+    a.active_menu{
+      color: #f00946;
+      border-bottom: none;
+    }
   }
   
