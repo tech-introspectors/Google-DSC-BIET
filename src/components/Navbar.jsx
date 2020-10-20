@@ -41,7 +41,7 @@ export default function Navbar() {
                                 <NavLink 
                                     exact 
                                     activeClassName = "active_menu" 
-                                    to='/' 
+                                    to='/reactjs-dscBiet' 
                                     className='nav-links' 
                                     onClick = {closeMoblileMenu}
                                     aria-current = "page"
