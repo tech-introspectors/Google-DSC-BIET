@@ -29,14 +29,23 @@ export default function Navbar() {
                     <div className='navbar-container container'>
                         <NavLink  to='/' className='navbar-logo' onClick = {closeMoblileMenu}>   
                         DSC BIET
-                    </NavLink>
+                        </NavLink>
 
                         <div className='menu-icon' onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
                         </div>
+
+                    
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className="nav-item">
-                                <NavLink exact activeClassName = "active_menu" to='/' className='nav-links'onClick = {closeMoblileMenu}>
+                                <NavLink 
+                                    exact 
+                                    activeClassName = "active_menu" 
+                                    to='/' 
+                                    className='nav-links' 
+                                    onClick = {closeMoblileMenu}
+                                    aria-current = "page"
+                                >
                                     Home
                           </NavLink>
                             </li>
