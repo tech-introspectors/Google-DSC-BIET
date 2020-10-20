@@ -4,6 +4,7 @@ import Form from "../Home/components/Form";
 import Contact_Image from '../../asserts/contact134.webp';
 import { FiAtSign } from 'react-icons/fi';
 import {MdLocationOn} from  'react-icons/md';
+import {Link} from 'react-router-dom';
 
 
 import '../Home/Home.css';
@@ -43,21 +44,47 @@ export default function Contact() {
          </div>
        </div>
         
-      <div className = "row card_container">
-        <div className = "custom_card">
+      {/* <div className = "row card_container d-flex justify-content-center">
+        <div className = "custom_card col-md-5 col-xl-5 col-sm-12">
             <a href = "#" target = "_blank" className = "circle">
                 <FiAtSign  className = "custom_icon"/>
             </a>
             <h2 className = "title">Email</h2>
             <p className = "mail">teamintrospectors@gmail.com</p>
         </div>
-        <div className = "custom_card">
+        <div className = "custom_card col-md-5 col-xl-5 col-sm-12">
             <a href = "#" target = "_blank" className = "circle">
                 <MdLocationOn  className = "custom_icon"/>
             </a>
             <h2 className = "title">Address</h2>
             <p className = "mail">Ibrahimpatnam, BIET</p>
         </div>
+      </div> */}
+
+      <div className = "row d-flex justify-content-center container custom__card">
+       
+          <div className = "col-lg-5 col-sm-12 card__container">
+              <Link  href = "#" > 
+                <FiAtSign  className = "custom_icon"/>
+              </Link>
+              
+              <div className = "_heading">
+              <h2 >Email</h2>
+              <p >teamintrospectors@gmail.com</p>
+              </div>
+          </div>
+
+          <div className = "col-lg-5 card__container">
+              <Link  href = "#" > 
+                <MdLocationOn  className = "custom_icon"/>
+              </Link>
+
+              <div className = "_heading">
+              <h2 >Address</h2>
+              <p >Ibrahimpatnam, BIET</p>
+              </div>
+          </div>
+        
       </div>
      
       </div>

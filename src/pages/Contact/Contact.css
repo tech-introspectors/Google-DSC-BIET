@@ -28,68 +28,71 @@
     box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
 }
 
-.contact_container .card_container{
-   display: flex;
-   justify-content: space-between;
-    
+.custom__card{
+    height: 190px;
+    width: 100%;
+    grid-gap: 20px;
+    justify-content: center;
+    position: relative;
+    margin: 50px;
 }
-.card_container .custom_card{
-    height: 220px;
-    width: 500px;
-    background-color: white;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-    border-radius: 10px;
+.card__container{
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.3);
     position: relative;
     transition: 0.3s ease-in-out;
-    margin-bottom: 50px;
-
 }
 
-.card_container .custom_card:hover{
-    transform: scale(1.05);
-    
-}
-.card_container .custom_card .title {
-    position: absolute;
-    bottom: 50px;
-    left: 45%;
-    right: auto;
+.card__container:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
-.card_container .custom_card .mail{
-    position: relative;
-    top: 130px;
-    text-align: center;
-}
-
-.card_container a{
-    padding: 30px 25px;
-    height: 80px;
-    width: 80px;
-    background-color: cadetblue;
-    color: blue;
-    background-color: #edf5ff;
+.custom__card a {
+    background-color: rgba(0, 162, 255, 0.5);
+    padding: 25px;
+    color: #ffff;
     border-radius: 50%;
-    position: relative;
-    top: 70px;
-    left: 42%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    top: 25px;
+    left: 50%;
     right: auto;
-}
-
-.card_container .custom_icon{
-    font-size: 30px;
-}
-
-.card_container .custom_icon:hover{
-    color: #fff;
-    transition: 0.3s ease-in-out;
+    transform: translate(-50%);
+    text-decoration: none;
     
 }
-.card_container .circle:hover{
-    color: #fff;
+
+.custom__card a:hover{
     background-color: blue;
+    color: #fff;
+    transition: 0.3s ease-in-out;
 }
 
+.custom__card .custom_icon{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.custom__card ._heading{
+    position: absolute;
+    top: 105px;
+    text-align: center;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%);
+}
+
+
+@media screen and (max-width: 989px){
+    .custom__card{
+        height: 480px;
+        /* grid-template-columns: 1; */
+        grid-gap: 20px;
+    }
+}
 
 
 /* ANIMATION -------> */
