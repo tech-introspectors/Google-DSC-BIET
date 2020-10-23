@@ -1,0 +1,38 @@
+.event_container {
+  border: 2px solid white;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 440px;
+  width: 500px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.event_details > h6 {
+  color: red;
+  margin-left: 30px;
+}
+
+.event_details .link {
+  text-decoration: none;
+}
+
+.event_details h3 {
+  font-weight: bold;
+  margin-left: 40px;
+  color: rgb(68, 67, 67);
+}
+
+.event_details h3:hover {
+  color: #000;
+}
+
+.event_details .btn_style {
+  margin-left: 80px;
+  outline: none !important;
+}
