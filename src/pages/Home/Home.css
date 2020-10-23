@@ -1,14 +1,13 @@
 /* ANIMATION */
-._shapeAnimation{
+._shapeAnimation {
   position: relative;
 }
 
-
-._shapeAnimation::before{
+._shapeAnimation::before {
   content: "";
   height: 120px;
   width: 120px;
-  background-color: rgba(255, 0, 0,0.15);
+  background-color: rgba(255, 0, 0, 0.15);
   position: absolute;
   z-index: -1;
   border-radius: 50%;
@@ -17,33 +16,29 @@
   animation: _RotateCircle 4s linear infinite alternate;
 }
 
-@keyframes _RotateCircle{
-  from{
+@keyframes _RotateCircle {
+  from {
     transform: rotateY(50deg) translate(150px, 0px);
-
   }
-  to{
+  to {
     transform: rotateY(360deg) translate(150px, 150px);
   }
 }
 
-
-
-._shapeAnimation::after{
+._shapeAnimation::after {
   content: "";
   height: 100vh;
   width: 100vh;
-  background-color: rgba(0, 195, 255,0.15);
+  background-color: rgba(0, 195, 255, 0.15);
   position: absolute;
   top: 0;
   right: -40%;
   z-index: -1;
   border-radius: 50%;
- 
 }
 /* ANIMATION END */
 
-.main{
+.main {
   overflow: hidden;
 }
 
@@ -84,19 +79,11 @@
   padding: 35px 20px;
 }
 
-@media screen and (max-width: 992px){
-  .form_bg_color{
+@media screen and (max-width: 992px) {
+  .form_bg_color {
     height: 1200px;
   }
 }
-
-
-
-
-
-
-
-
 
 /* FAQ style*/
 .faq_container {
@@ -106,36 +93,34 @@
   width: 100%;
   border-radius: 10px;
   padding: 50px;
-  transition: .3s ease-in;
+  transition: 0.3s ease-in;
   margin-bottom: 50px;
 }
 
-.faq_content{
+.faq_content {
   position: relative;
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
- 
 }
-.accordion__button{
-    outline: none !important;
-    font-size: 18px;
-    font-weight: 600;
-    background-color:#f5f9ff;
+.accordion__button {
+  outline: none !important;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f5f9ff;
 }
 
-.accordion__button:hover{
+.accordion__button:hover {
   background-color: blue;
   color: white;
-  transition: .3s ease-in;
+  transition: 0.3s ease-in;
 }
-.accordion-content{
+.accordion-content {
   color: grey;
 }
 
-
 /* Footer_style */
-.footer::before{
+.footer::before {
   content: "";
   width: 50px;
   height: 50px;
@@ -147,105 +132,104 @@
   animation: _move 3s linear infinite alternate;
 }
 
-@keyframes _move{
-  from{
+@keyframes _move {
+  from {
     top: 0px;
   }
 
-  to{
+  to {
     top: 40px;
   }
 }
 
-.footer::after{
+.footer::after {
   content: "";
   position: absolute;
   height: 200px;
   width: 200px;
-  background-color: #D6E4F0;
+  background-color: #d6e4f0;
   border-radius: 50%;
   opacity: 0.3;
   z-index: -1;
   animation: _moveBigCircle 3s infinite alternate;
 }
 
-@keyframes _moveBigCircle{
-  from{
+@keyframes _moveBigCircle {
+  from {
     bottom: 0px;
   }
-  to{
+  to {
     bottom: 250px;
   }
 }
 
-
-.footer_bg{
+.footer_bg {
   position: relative;
+  height: 90vh;
 }
-.footer_bg::before{
-   content: "";
-   position: absolute;
-   height: 50px;
-   width: 50px;
-   background-color: red;
-   right: 130px;
-   left: auto;
-   margin-top: 50px;
-   border-radius: 50%;
-   opacity: 0.1;
-   animation: _moveRightCircle 3s linear infinite alternate;
-
+.footer_bg::before {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  right: 130px;
+  left: auto;
+  margin-top: 50px;
+  border-radius: 50%;
+  opacity: 0.1;
+  animation: _moveRightCircle 3s linear infinite alternate;
 }
 
-@keyframes _moveRightCircle{
-  from{
+@keyframes _moveRightCircle {
+  from {
     top: 0;
   }
-  to{
+  to {
     top: 40px;
   }
 }
 
-.footer_bg::after{
+.footer_bg::after {
   content: "";
   position: absolute;
   height: 200px;
   width: 200px;
   right: 150px;
   left: auto;
-  background-color: #D6E4F0;
+  background-color: #d6e4f0;
   border-radius: 50%;
   opacity: 0.3;
   z-index: -1;
   animation: _moveBigCircle 3s infinite alternate;
 }
 
-.footer{
+.footer {
   padding-top: 50px;
   height: 90vh;
   position: relative;
 }
 
-.footer h2{
+.footer h2 {
   font-weight: 600;
   font-size: 35px;
   margin-bottom: 40px;
 }
 
-.footer .custome_form{
+.footer .custome_form {
   display: flex;
   justify-content: center;
 }
-.footer .custom_btn{
+.footer .custom_btn {
   border: none !important;
 }
 
-.footer p{
+.footer p {
   color: grey;
   margin-bottom: 50px;
 }
 
-.footer .logo{
+.footer .logo {
   color: grey;
   font-weight: 600;
   font-size: 35px;
@@ -254,15 +238,15 @@
   text-align: center;
 }
 
-.footer .link{
+.footer .link {
   text-decoration: none;
 }
 
-.footer h3{
+.footer h3 {
   font-size: 1.25rem;
 }
 
-.footer .social_media{
+.footer .social_media {
   color: gray;
   font-size: 16px;
   display: flex;
@@ -274,68 +258,65 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  margin-top: -30px;
   margin-right: 10px;
-  margin-bottom: 30px;
-
+  margin-bottom: 50px;
 }
 
-.footer .social_media:hover{
+.footer .social_media:hover {
   background-color: blue;
   color: #fff;
   border: none;
   transition: 0.3s ease-out;
 }
-.footer h5{
+.footer h5 {
   line-height: 9vh;
 }
 
-
-@media screen and (max-width: 992px){
-  .footer .custome_form{
+@media screen and (max-width: 992px) {
+  .footer .custome_form {
     display: block;
     justify-content: center;
     font-size: 20px;
-    
   }
-  .footer .form_input{
+  .footer .form_input {
     border-radius: 15px;
   }
 
-  .footer .custom_btn{
+  .footer .custom_btn {
     width: 100% !important;
     margin-top: 20px;
     border-radius: 15px !important;
     font-size: 24px;
     font-weight: 600;
-    box-shadow: 0 20px 40px 0 rgba(0,0,0,.1);
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.1);
     outline: none !important;
     border: none;
   }
-  .footer::after{
+  .footer::after {
     display: none;
   }
-  .footer_bg::before{
+  .footer_bg::before {
     right: 40px;
   }
-  .footer_bg::after{
+  .footer_bg::after {
     display: none;
   }
 }
 
-
 /* Project Styling */
 
-.custom_heading{
+.custom_heading {
   letter-spacing: 2px;
   font-size: 35px;
 }
 
-.contact_container .btn_customs{
+.contact_container .btn_customs {
   font-weight: bold;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
   transition: 0.5s ease-in-out;
 }
 
-.contact_container .btn_customs:hover{
+.contact_container .btn_customs:hover {
   transform: scale(1.05);
 }
