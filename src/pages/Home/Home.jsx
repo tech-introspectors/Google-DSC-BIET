@@ -16,16 +16,12 @@ import Footer from "../../components/Footer";
 
 import "../Home/Home.css";
 
-
-
-
-
 export default function Home() {
   return (
     <>
-      <div className = "main">
-        <div className="container _shapeAnimation" >
-          <HeroSection {...homeObjOne}  />
+      <div className="main">
+        <div className="container _shapeAnimation">
+          <HeroSection {...homeObjOne} />
           <HeroSection {...homeObjTwo} />
           <HeroSection {...homeObjThree} />
           <HeroSection {...homeObjFour} />
@@ -102,9 +98,9 @@ export default function Home() {
 
         {/* recent_project section ended */}
 
-        <div className="form_bg_color">
+        <div className="form_bg_color idea_container">
           <div className="container ">
-            <div className="row">
+            <div className="row d-flex justify-content-center">
               <div className="col-lg-6 col-md-12 mx-auto">
                 <h1>Have an Awesome Idea, Lets BrainStorm</h1>
                 <p className="mb-1">
@@ -136,23 +132,21 @@ export default function Home() {
                   <Form placeholder="Branch*" />
                   <Form placeholder="Year*" />
                   <Form placeholder="Idea*" />
-                  <Button text="SUBMIT IDEA" column = "12" buttonSize="50px" />
+                  <Button text="SUBMIT IDEA" column="12" buttonSize="50px" />
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-         {/* FAQ section ----------->>>>  */}
+        {/* FAQ section ----------->>>>  */}
         <div className="tech_bg_color">
           <div className="text-center">
             <TitleCenter {...TitleCenter3} />
           </div>
-            <FaQ  />
+          <FaQ />
         </div>
-         {/* FAQ section ----------->>>> end */}
-
-
+        {/* FAQ section ----------->>>> end */}
 
         {/* Footer ----------------->>>>>  */}
         <Footer />

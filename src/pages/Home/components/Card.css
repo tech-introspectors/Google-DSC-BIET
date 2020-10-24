@@ -36,3 +36,10 @@
   padding-top: 50px;
   font-size: 35px;
 }
+
+@media screen and (max-width: 768px) {
+  .card_container {
+    display: flex;
+    justify-content: center;
+  }
+}

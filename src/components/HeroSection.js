@@ -1,20 +1,11 @@
 import React from "react";
 import "./HeroSection.css";
 
-function HeroSection({
-  headline,
-  description,
-  imgStart,
-  img,
-  alt,
-}) {
-
-  
+function HeroSection({ headline, description, imgStart, img, alt }) {
   return (
     <>
-    
-      <div className="home__hero-section container" >
-        <div className="container" >
+      <div className="home__hero-section _container">
+        <div className="container">
           <div
             className="row home__hero-row"
             style={{
@@ -22,10 +13,10 @@ function HeroSection({
               flexDirection: imgStart === "start" ? "row-reverse" : "row",
             }}
           >
-            <div className="col-lg-7 col-sm-12 col-md-12">
+            <div className="col">
               <div className="home__hero-text-wrapper">
                 <h1 className="heading">{headline}</h1>
-                <div className = "border_animation ml-0"></div>
+                <div className="border_animation ml-0"></div>
                 <p className="home__hero-subtitle">{description}</p>
               </div>
             </div>
@@ -37,7 +28,6 @@ function HeroSection({
           </div>
         </div>
       </div>
-     
     </>
   );
 }
