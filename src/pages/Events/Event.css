@@ -13,9 +13,15 @@
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
 }
 
+.event_details {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .event_details > h6 {
   color: red;
-  margin-left: 30px;
 }
 
 .event_details .link {
@@ -24,7 +30,6 @@
 
 .event_details h3 {
   font-weight: bold;
-  margin-left: 40px;
   color: rgb(68, 67, 67);
 }
 
@@ -33,6 +38,8 @@
 }
 
 .event_details .btn_style {
-  margin-left: 80px;
   outline: none !important;
+  position: absolute;
+  right: 30px;
+  transition: 0.3s all ease;
 }
