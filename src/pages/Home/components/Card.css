@@ -5,33 +5,36 @@
 
 .card_container img {
   width: 80px;
-  padding-bottom: 20px;
 }
 
 .card_container h2 {
   font-size: 20px;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 .card_content {
   width: 320px;
-  height: 190px;
+  height: 150px;
   padding: 20px;
+  display: flex;
+  align-items: center;
   background-color: white;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s ease-in-out;
-  box-shadow: 10px 15px 30px 10px rgba(0, 0, 0, 0.152);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.152);
 }
 
 .card_content:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .tech_bg_color {
   background-color: rgba(10, 145, 255, 0.103);
   padding-bottom: 20px;
 }
+
 .tech_bg_color h1 {
   padding-top: 50px;
   font-size: 35px;

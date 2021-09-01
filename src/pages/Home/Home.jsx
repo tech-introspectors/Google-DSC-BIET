@@ -35,54 +35,14 @@ export default function Home() {
               <TitleCenter {...TitleCenter1} />
             </div>
             <div className="row d-flex justify-content-center">
-              <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                <Card
-                  img={Card_Details[0].img}
-                  tech_Name={Card_Details[0].tech_Name}
-                />
-              </div>
-              <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                <Card
-                  img={Card_Details[1].img}
-                  tech_Name={Card_Details[1].tech_Name}
-                />
-              </div>
-              <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                <Card
-                  img={Card_Details[2].img}
-                  tech_Name={Card_Details[2].tech_Name}
-                />
-              </div>
-              <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                <Card
-                  img={Card_Details[3].img}
-                  tech_Name={Card_Details[3].tech_Name}
-                />
-              </div>
-              <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                <Card
-                  img={Card_Details[4].img}
-                  tech_Name={Card_Details[4].tech_Name}
-                />
-              </div>
-              <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                <Card
-                  img={Card_Details[5].img}
-                  tech_Name={Card_Details[5].tech_Name}
-                />
-              </div>
-              <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                <Card
-                  img={Card_Details[6].img}
-                  tech_Name={Card_Details[6].tech_Name}
-                />
-              </div>
-              <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                <Card
-                  img={Card_Details[7].img}
-                  tech_Name={Card_Details[7].tech_Name}
-                />
-              </div>
+              {Card_Details.map((item,index) => (
+                <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
+                  <Card
+                    img={item.img}
+                    tech_Name={item.tech_Name}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <NavLink
-              to="/reactjs-dscBiet"
+              to="/"
               className="navbar-logo"
               onClick={closeMoblileMenu}
             >
@@ -42,7 +42,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/reactjs-dscBiet"
+                  to="/"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                   aria-current="page"
