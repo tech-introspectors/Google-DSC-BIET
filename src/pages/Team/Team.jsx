@@ -8,13 +8,13 @@ export default function Team() {
 
   const team = (member, index) => {
     return (
-      
+
           <Team_Members
             img = {member.img}
             name = {member.memberName}
             profession = {member.profession}
           />
-       
+
     )
   }
 
@@ -29,13 +29,11 @@ export default function Team() {
         {/* // rendering team members details // */}
         <div className = "container">
           <div className="row justify-content-center custom_member">
-          
+
           {MembersData.map(team)}
           </div>
         </div>
-      
-      
-    </div>  
+    </div>
     <Footer />
     </div>
     </>
