@@ -10,7 +10,7 @@ import {
   TitleCenter3,
 } from "./data/TitleCenterData";
 import Form from "../Home/components/Form";
-import ideaImage from "../../asserts/images/ideaImage.svg";
+import ideaImage from "../../assets/images/ideaImage.svg";
 import Button from "./components/Button";
 import FaQ from "./components/FaQ";
 import Footer from "../../components/Footer";

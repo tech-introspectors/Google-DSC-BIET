@@ -1,13 +1,12 @@
-import img1 from "../../../asserts/tech_logos/flutter.svg";
-import img2 from "../../../asserts/tech_logos/reactjs.svg";
-import img3 from "../../../asserts/tech_logos/nextjs.svg";
-import img4 from "../../../asserts/tech_logos/javascript.svg";
-import img5 from "../../../asserts/tech_logos/python.svg";
-import img6 from "../../../asserts/tech_logos/java.svg";
-import img7 from "../../../asserts/tech_logos/robot.svg";
-import img8 from "../../../asserts/tech_logos/firebase.svg";
-import img9 from "../../../asserts/tech_logos/amazon-web-services.svg";
-
+import img1 from "../../../assets/tech_logos/flutter.svg";
+import img2 from "../../../assets/tech_logos/reactjs.svg";
+import img3 from "../../../assets/tech_logos/nextjs.svg";
+import img4 from "../../../assets/tech_logos/javascript.svg";
+import img5 from "../../../assets/tech_logos/python.svg";
+import img6 from "../../../assets/tech_logos/java.svg";
+import img7 from "../../../assets/tech_logos/robot.svg";
+import img8 from "../../../assets/tech_logos/firebase.svg";
+import img9 from "../../../assets/tech_logos/amazon-web-services.svg";
 
 const Card_Details = [
   {
