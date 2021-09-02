@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from '../../components/Footer';
 import Form from "../Home/components/Form";
-import Contact_Image from '../../asserts/contact134.webp';
+import Contact_Image from '../../asserts/images/Feedback.svg';
 import { FiAtSign } from 'react-icons/fi';
 import {MdLocationOn} from  'react-icons/md';
 import {Link} from 'react-router-dom';
@@ -34,7 +34,7 @@ export default function Contact() {
           <textarea className = "col-12" placeholder= "Your Message">
           </textarea>
 
-          <Button 
+          <Button
             text = "SEND MESSAGE"
             buttonSize = "50px"
             column = "4"
@@ -45,12 +45,12 @@ export default function Contact() {
        </div>
 
       <div className = "row d-flex justify-content-center container custom__card">
-       
+
           <div className = "col-lg-5 col-sm-12 card__container">
-              <Link  href = "#" > 
+              <Link  href = "#" >
                 <FiAtSign  className = "custom_icon"/>
               </Link>
-              
+
               <div className = "_heading">
               <h2 >Email</h2>
               <p >teamintrospectors@gmail.com</p>
@@ -58,7 +58,7 @@ export default function Contact() {
           </div>
 
           <div className = "col-lg-5 card__container">
-              <Link  href = "#" > 
+              <Link  href = "#" >
                 <MdLocationOn  className = "custom_icon"/>
               </Link>
 
@@ -67,13 +67,13 @@ export default function Contact() {
               <p >Ibrahimpatnam, BIET</p>
               </div>
           </div>
-        
+
       </div>
-     
+
       </div>
-      
+
       <Footer />
-    </div>  
+    </div>
     </>
   );
 }
