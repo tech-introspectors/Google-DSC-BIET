@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div className="row d-flex justify-content-center">
               {Card_Details.map((item, index) => (
-                <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
+                <div key={index} className="col-lg-6 col-xl-4 col-md-6 mx-auto">
                   <Card img={item.img} tech_Name={item.tech_Name} />
                 </div>
               ))}
@@ -63,7 +63,7 @@ export default function Home() {
             <div className="row main_content">
               <div className="col-lg-7 col-md-12 mx-auto">
                 <div>
-                  <img src={ideaImage} className="idea_img" alt="Idea Image" />
+                  <img className="idea_img" src={ideaImage} alt="Idea-Image" />
                 </div>
               </div>
               <div className="col-lg-5 col-md-12 form_container">

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import logo from "../asserts/dsc_logo.png";
+import logo from "../assets/dsc_logo.png";
 // import Home from "../pages/Home/Home";
 import "./Navbar.css";
 
@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <NavLink to="/" className="navbar-logo" onClick={closeMoblileMenu}>
-              <img className="logo_img" src={logo} /> DSC BIET
+              <img className="logo_img" src={logo} alt="dsc logo" /> DSC BIET
             </NavLink>
 
             <div className="menu-icon" onClick={handleClick}>
