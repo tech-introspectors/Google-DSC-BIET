@@ -13,6 +13,7 @@ export default function Projects() {
           <div className = "row">
             <div className = "col-lg-12 d-flex justify-content-center">
             <Button 
+               
               text = "ADD  YOUR PROJECT"
               column = "12"
               buttonSize = '50px'
