@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import Home from "../pages/Home/Home";
+import logo from "../asserts/dsc_logo.png";
+// import Home from "../pages/Home/Home";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -25,12 +26,8 @@ export default function Navbar() {
       <IconContext.Provider value={{ color: " gray" }}>
         <div className="navbar">
           <div className="navbar-container container">
-            <NavLink
-              to="/"
-              className="navbar-logo"
-              onClick={closeMoblileMenu}
-            >
-              DSC BIET
+            <NavLink to="/" className="navbar-logo" onClick={closeMoblileMenu}>
+              <img className="logo_img" src={logo} /> DSC BIET
             </NavLink>
 
             <div className="menu-icon" onClick={handleClick}>

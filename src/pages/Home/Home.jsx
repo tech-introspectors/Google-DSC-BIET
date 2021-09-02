@@ -10,6 +10,7 @@ import {
   TitleCenter3,
 } from "./data/TitleCenterData";
 import Form from "../Home/components/Form";
+import ideaImage from "../../asserts/images/ideaImage.svg";
 import Button from "./components/Button";
 import FaQ from "./components/FaQ";
 import Footer from "../../components/Footer";
@@ -19,6 +20,7 @@ import "../Home/Home.css";
 export default function Home() {
   return (
     <>
+      {" "}
       <div className="main">
         <div className="container _shapeAnimation">
           <HeroSection {...homeObjOne} />
@@ -26,66 +28,45 @@ export default function Home() {
           <HeroSection {...homeObjThree} />
           <HeroSection {...homeObjFour} />
         </div>
-
-        {/* Technologies section */}
-
+        {/* Technologies section */}{" "}
         <div className="tech_bg_color">
+          {" "}
           <div className="container">
             <div className="text-center">
               <TitleCenter {...TitleCenter1} />
             </div>
             <div className="row d-flex justify-content-center">
-              {Card_Details.map((item,index) => (
+              {Card_Details.map((item, index) => (
                 <div className="col-lg-6 col-xl-4 col-md-6 mx-auto">
-                  <Card
-                    img={item.img}
-                    tech_Name={item.tech_Name}
-                  />
+                  <Card img={item.img} tech_Name={item.tech_Name} />
                 </div>
               ))}
             </div>
           </div>
         </div>
-
-        {/* Technologies section ended */}
-
-        {/* recent_project section */}
-
+        {/* Technologies section ended */} {/* recent_project section */}{" "}
         <div className="text-center recent_project">
+          {" "}
           <TitleCenter {...TitleCenter2} />
-          <p style={{ color: "grey" }}>No Projects Available Right Now</p>
+          <p
+            style={{
+              color: "grey",
+            }}
+          >
+            No Projects Available Right Now
+          </p>
         </div>
-
-        {/* recent_project section ended */}
-
+        {/* recent_project section ended */}{" "}
         <div className="form_bg_color idea_container">
+          {" "}
           <div className="container ">
-            <div className="row d-flex justify-content-center">
-              <div className="col-lg-6 col-md-12 mx-auto">
-                <h1>Have an Awesome Idea, Lets BrainStorm</h1>
-                <p className="mb-1">
-                  <b>Input:</b>
-                </p>
-                <p className="mb-1">
-                  const <b>idea</b> = ["Revolutionary Idea"];
-                </p>
-                <p className="mb-1">
-                  if(
-                  <b>
-                    ! idea.includes("technicalKnowledge" || "developers" ||
-                    {"  "}"domainKnowledge" || "designers "{" "}
-                  </b>
-                  ){" { "}
-                </p>
-                <p className="ml-4">
-                  <b>submitIdea();</b>
-                </p>
-                <p className="mb-1">{" } "}</p>
-                <p className="mb-1">
-                  <b>Output: </b>helpReceived()
-                </p>
+            <div className="row main_content">
+              <div className="col-lg-7 col-md-12 mx-auto">
+                <div>
+                  <img src={ideaImage} className="idea_img" alt="Idea Image" />
+                </div>
               </div>
-              <div className="col-lg-6 col-md-12 form_container">
+              <div className="col-lg-5 col-md-12 form_container">
                 <div className="form_content">
                   <Form placeholder="Name*" />
                   <Form placeholder="Email*" />
@@ -98,18 +79,16 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* FAQ section ----------->>>>  */}
+        {/* FAQ section ----------->>>> */}{" "}
         <div className="tech_bg_color">
+          {" "}
           <div className="text-center">
             <TitleCenter {...TitleCenter3} />
           </div>
           <FaQ />
         </div>
-        {/* FAQ section ----------->>>> end */}
-
-        {/* Footer ----------------->>>>>  */}
-        <Footer />
+        {/* FAQ section ----------->>>> end */}{" "}
+        {/* Footer ----------------->>>>> */} <Footer />{" "}
       </div>
     </>
   );

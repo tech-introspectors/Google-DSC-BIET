@@ -78,7 +78,7 @@ const Footer = () => {
           <div className="bottom_footer">
             <hr className="col-4 m-auto" />
             <h5 className="text-center">
-              Developed with <span style={{ fontSize: "18px" }}>🖤</span> by
+              Developed with <span style={{ fontSize: "18px" }}>❤️</span> by
               Introspctors
             </h5>
           </div>

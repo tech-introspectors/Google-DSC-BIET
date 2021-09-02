@@ -62,7 +62,7 @@
     right: auto;
     transform: translate(-50%);
     text-decoration: none;
-    
+
 }
 
 .custom__card a:hover{
@@ -91,36 +91,6 @@
         height: 480px;
         /* grid-template-columns: 1; */
         grid-gap: 20px;
-    }
-}
-
-
-/* ANIMATION -------> */
-.border_animation{
-    width: 100px;
-    height:4px;
-    border-radius: 15px;
-    background: blue;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
-.border_animation::after{
-    content: "";
-    position: absolute;
-    height: 4px;
-    width: 5px;
-    background: white;
-    animation: move 2.5s linear infinite;
-}
-
-@keyframes move{
-    from{
-        left: 0px;
-    }
-    to{
-        left: 95px;
     }
 }
 
@@ -173,7 +143,7 @@
     }
     100%{
         transform: translateX(60px);
-    }  
+    }
 }
 
 #egg{
@@ -203,8 +173,3 @@
         top: 50px;
     }
 }
-
-
-
-    
-    

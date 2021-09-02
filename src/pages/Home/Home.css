@@ -1,28 +1,10 @@
+.main {
+  overflow: hidden;
+}
+
 /* ANIMATION */
 ._shapeAnimation {
   position: relative;
-}
-
-._shapeAnimation::before {
-  content: "";
-  height: 120px;
-  width: 120px;
-  background-color: rgba(255, 0, 0, 0.15);
-  position: absolute;
-  z-index: -1;
-  border-radius: 50%;
-  top: 20px;
-  left: 0;
-  animation: _RotateCircle 4s linear infinite alternate;
-}
-
-@keyframes _RotateCircle {
-  from {
-    transform: rotateY(50deg) translate(150px, 0px);
-  }
-  to {
-    transform: rotateY(360deg) translate(150px, 150px);
-  }
 }
 
 ._shapeAnimation::after {
@@ -31,19 +13,37 @@
   width: 100vh;
   background-color: rgba(0, 195, 255, 0.15);
   position: absolute;
-  top: 0;
+  top: 10%;
   right: -40%;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+._shapeAnimation::before {
+  content: "";
+  height: 100vh;
+  width: 100vh;
+  background-color: rgba(0, 195, 255, 0.15);
+  position: absolute;
+  top: 62%;
+  left: -40%;
   z-index: -1;
   border-radius: 50%;
 }
 /* ANIMATION END */
 
-.main {
-  overflow: hidden;
-}
-
 .recent_project h1 {
   padding-top: 50px;
+}
+
+.main_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.idea_img {
+  width: 100%;
 }
 
 .form_bg_color {
@@ -72,7 +72,7 @@
   margin-top: 15vh;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .form_container .form_content {
@@ -121,7 +121,7 @@
 }
 
 .accordion__button:hover {
-  background-color: blue;
+  background-color: #007bff;
   color: white;
   transition: 0.3s ease-in;
 }
@@ -276,7 +276,7 @@
 }
 
 .footer .social_media:hover {
-  background-color: blue;
+  background-color: #007bff;
   color: #fff;
   border: none;
   transition: 0.3s ease-out;
