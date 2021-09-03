@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/reactjs-dscBiet/static/css/main.f13fbf74.chunk.css",
+    "main.js": "/reactjs-dscBiet/static/js/main.5e739f60.chunk.js",
+    "main.js.map": "/reactjs-dscBiet/static/js/main.5e739f60.chunk.js.map",
+    "runtime-main.js": "/reactjs-dscBiet/static/js/runtime-main.cd0ef026.js",
+    "runtime-main.js.map": "/reactjs-dscBiet/static/js/runtime-main.cd0ef026.js.map",
+    "static/css/2.c140bb19.chunk.css": "/reactjs-dscBiet/static/css/2.c140bb19.chunk.css",
+    "static/js/2.a06344ca.chunk.js": "/reactjs-dscBiet/static/js/2.a06344ca.chunk.js",
+    "static/js/2.a06344ca.chunk.js.map": "/reactjs-dscBiet/static/js/2.a06344ca.chunk.js.map",
+    "index.html": "/reactjs-dscBiet/index.html",
+    "precache-manifest.6add6076409728b041c842899f28150d.js": "/reactjs-dscBiet/precache-manifest.6add6076409728b041c842899f28150d.js",
+    "service-worker.js": "/reactjs-dscBiet/service-worker.js",
+    "static/css/2.c140bb19.chunk.css.map": "/reactjs-dscBiet/static/css/2.c140bb19.chunk.css.map",
+    "static/css/main.f13fbf74.chunk.css.map": "/reactjs-dscBiet/static/css/main.f13fbf74.chunk.css.map",
+    "static/js/2.a06344ca.chunk.js.LICENSE.txt": "/reactjs-dscBiet/static/js/2.a06344ca.chunk.js.LICENSE.txt",
+    "static/media/Feedback.svg": "/reactjs-dscBiet/static/media/Feedback.cc2fbe07.svg",
+    "static/media/Project-team.svg": "/reactjs-dscBiet/static/media/Project-team.52778f3b.svg",
+    "static/media/Startup-1.svg": "/reactjs-dscBiet/static/media/Startup-1.da7ad87a.svg",
+    "static/media/Startup-2.svg": "/reactjs-dscBiet/static/media/Startup-2.c46dff87.svg",
+    "static/media/amazon-web-services.svg": "/reactjs-dscBiet/static/media/amazon-web-services.20b01128.svg",
+    "static/media/dsc_logo.png": "/reactjs-dscBiet/static/media/dsc_logo.bd954cee.png",
+    "static/media/firebase.svg": "/reactjs-dscBiet/static/media/firebase.63a193f6.svg",
+    "static/media/flutter.svg": "/reactjs-dscBiet/static/media/flutter.89e16106.svg",
+    "static/media/ideaImage.svg": "/reactjs-dscBiet/static/media/ideaImage.1d1f5e8a.svg",
+    "static/media/java.svg": "/reactjs-dscBiet/static/media/java.f5f6e320.svg",
+    "static/media/javascript.svg": "/reactjs-dscBiet/static/media/javascript.fa59b833.svg",
+    "static/media/kamal.jpeg": "/reactjs-dscBiet/static/media/kamal.acf672ee.jpeg",
+    "static/media/nextjs.svg": "/reactjs-dscBiet/static/media/nextjs.771c9635.svg",
+    "static/media/pavan.jpeg": "/reactjs-dscBiet/static/media/pavan.a1467103.jpeg",
+    "static/media/python.svg": "/reactjs-dscBiet/static/media/python.0b948ab5.svg",
+    "static/media/reactjs.svg": "/reactjs-dscBiet/static/media/reactjs.1d99931b.svg",
+    "static/media/robot.svg": "/reactjs-dscBiet/static/media/robot.6ed5dded.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd0ef026.js",
+    "static/css/2.c140bb19.chunk.css",
+    "static/js/2.a06344ca.chunk.js",
+    "static/css/main.f13fbf74.chunk.css",
+    "static/js/main.5e739f60.chunk.js"
+  ]
+}
