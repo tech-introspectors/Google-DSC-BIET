@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import logo from "../assets/dsc_logo.png";
-// import Home from "../pages/Home/Home";
 import "./Navbar.css";
 
 export default function Navbar() {

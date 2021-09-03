@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import logo from '../assets/dsc_logo.png';
 
 import Button from "../pages/Home/components/Button";
 import "../pages/Home/Home.css";
@@ -47,8 +48,9 @@ const Footer = () => {
             />
           </div>
 
-          <Link to="/" className="link">
-            <h1 className="text-center logo">DSC BIET</h1>
+          <Link to="/" className="link logo_img_">
+              <img src = {logo} alt = "logo" />
+              <h1 className="text-center logo">DSC BIET</h1>
           </Link>
 
           <div className="d-flex justify-content-center">
@@ -75,13 +77,12 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="bottom_footer">
-            <hr className="col-4 m-auto" />
-            <h5 className="text-center">
-              Developed with <span style={{ fontSize: "18px" }}>❤️</span> by
-              Introspctors
-            </h5>
-          </div>
+        </div>
+        <div className="bottom_footer">
+          <h5 className="text-center">
+            Developed with ❤️ by
+            Introspctors
+          </h5>
         </div>
       </div>
     </>
