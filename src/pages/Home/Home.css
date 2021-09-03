@@ -53,9 +53,10 @@
   background-repeat: no-repeat;
   background-color: rgba(10, 145, 255, 0.103);
   overflow: hidden;
+
 }
 
-.form_bg_color h1 {
+/* .form_bg_color h1 {
   margin-top: 20vh;
   margin-bottom: 25px;
   font-size: 35px;
@@ -66,10 +67,10 @@
   color: grey;
   line-height: 1.5;
   font-size: 18px;
-}
+} */
 
 .form_container {
-  margin-top: 15vh;
+  width: 100%;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
@@ -81,17 +82,22 @@
 
 @media screen and (max-width: 768px) {
   .idea_container {
-    height: 500vh;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 992px) {
   .form_bg_color {
     height: 1200px;
+    padding: 30px;
+  }
+
+  .form_container .form_content {
+    padding: 25px 10px;
   }
 
   .idea_container {
-    height: 200vh;
+    height: auto;
   }
 }
 
@@ -175,7 +181,7 @@
 
 .footer_bg {
   position: relative;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -218,7 +224,7 @@
 
 .footer {
   padding-top: 50px;
-  height: 90vh;
+  height: auto;
   position: relative;
 }
 
@@ -241,13 +247,22 @@
   margin-bottom: 50px;
 }
 
+.footer .logo_img_{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer .logo {
   color: grey;
   font-weight: 600;
   font-size: 35px;
-  margin: 40px;
   letter-spacing: 1px;
-  text-align: center;
+  margin: 35px 10px;
+}
+
+.footer .logo_img_ img{
+  width: 60px;
 }
 
 .footer .link {
@@ -281,14 +296,21 @@
   border: none;
   transition: 0.3s ease-out;
 }
+
+.bottom_footer{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
 .footer h5 {
-  line-height: 9vh;
+  line-height: 3vh;
+  margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
   .footer_bg {
-    height: 115vh;
-    overflow-y: hidden;
+    height: auto;
   }
 
   .footer h5 {
@@ -298,8 +320,7 @@
 
 @media screen and (max-width: 992px) {
   .footer_bg {
-    height: 115vh;
-    overflow-y: hidden;
+    height: auto;
   }
 
   .footer .custome_form {
@@ -337,7 +358,6 @@
 }
 
 /* Project Styling */
-
 .custom_heading {
   letter-spacing: 2px;
   font-size: 35px;

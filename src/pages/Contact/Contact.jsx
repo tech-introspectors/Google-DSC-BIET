@@ -58,7 +58,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="col-lg-5 card__container">
+            <div className="col-lg-5 col-sm-12 card__container">
               <Link href="#">
                 <MdLocationOn className="custom_icon" />
               </Link>
