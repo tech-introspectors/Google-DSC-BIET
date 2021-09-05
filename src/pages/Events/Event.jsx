@@ -12,7 +12,7 @@ export default function Event() {
         template={val.template}
         events_on={val.events_on}
         event_name={val.event_name}
-      /> : <div className = "_message"><h6>No Events Avaiable Right Now</h6></div>
+      /> : <div className = "_message"><h6>No Events Available Right Now</h6></div>
   }
       </>
     );
