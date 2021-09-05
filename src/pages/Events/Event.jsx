@@ -5,12 +5,16 @@ import Footer from "../../components/Footer";
 
 export default function Event() {
   const data = (val, i) => {
+    console.log(val.template && "correct");
     return (
-      <Events_Card
+      <>
+      {val.template && val.events_on && val.event_name ? <Events_Card
         template={val.template}
         events_on={val.events_on}
         event_name={val.event_name}
-      />
+      /> : <div className = "_message"><h6>No Events Avaiable Right Now</h6></div>
+  }
+      </>
     );
   };
   return (

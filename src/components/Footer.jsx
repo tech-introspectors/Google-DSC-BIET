@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
         <div className="bottom_footer">
           <h5 className="text-center">
-            Developed with ❤️ by
+            Developed with <span role = "img">❤️</span> by
             Introspctors
           </h5>
         </div>
