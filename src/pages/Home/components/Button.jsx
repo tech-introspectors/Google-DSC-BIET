@@ -13,7 +13,7 @@ export default function Button(props) {
     borderBottomRightRadius: `${props.BottomRight_Radius}`,
   };
 
-  const handleOnClick = () => {};
+  // const handleOnClick = () => {};
   return (
     <div>
       <button
