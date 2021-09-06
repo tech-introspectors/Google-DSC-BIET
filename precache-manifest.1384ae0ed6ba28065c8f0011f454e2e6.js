@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80d2d00ea959c7189a72c212a0a30526",
+    "revision": "d235c2829a9718182e3f3512b0ca3119",
     "url": "/reactjs-dscBiet/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-dscBiet/static/css/2.c140bb19.chunk.css"
   },
   {
-    "revision": "359e5577ebf25709aef9",
+    "revision": "b02c2801d1fe3d1ec775",
     "url": "/reactjs-dscBiet/static/css/main.dcfe398b.chunk.css"
   },
   {
@@ -20,28 +20,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-dscBiet/static/js/2.a06344ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "359e5577ebf25709aef9",
-    "url": "/reactjs-dscBiet/static/js/main.98ef379b.chunk.js"
+    "revision": "b02c2801d1fe3d1ec775",
+    "url": "/reactjs-dscBiet/static/js/main.8b80de3b.chunk.js"
   },
   {
     "revision": "a514198e2a148c8e16e0",
     "url": "/reactjs-dscBiet/static/js/runtime-main.cd0ef026.js"
   },
   {
-    "revision": "cc2fbe077f1d29e8c00dca4d0eca06d8",
-    "url": "/reactjs-dscBiet/static/media/Feedback.cc2fbe07.svg"
+    "revision": "4b73a2a540bde85b5346dc8737dc6c81",
+    "url": "/reactjs-dscBiet/static/media/Feedback.4b73a2a5.svg"
   },
   {
-    "revision": "52778f3b3c543f876a685fad597fbacd",
-    "url": "/reactjs-dscBiet/static/media/Project-team.52778f3b.svg"
+    "revision": "1ba127493d62b59c9b25b5300decd52d",
+    "url": "/reactjs-dscBiet/static/media/Project-team.1ba12749.svg"
   },
   {
-    "revision": "da7ad87ae93f99724e58d6304388926e",
-    "url": "/reactjs-dscBiet/static/media/Startup-1.da7ad87a.svg"
+    "revision": "1e3046c1463431becaf3c74b448c3dd4",
+    "url": "/reactjs-dscBiet/static/media/Startup-1.1e3046c1.svg"
   },
   {
-    "revision": "c46dff878fa825f73396f21b06f8c320",
-    "url": "/reactjs-dscBiet/static/media/Startup-2.c46dff87.svg"
+    "revision": "fa3f045c04c099b147477f642d5c086e",
+    "url": "/reactjs-dscBiet/static/media/Startup-2.fa3f045c.svg"
   },
   {
     "revision": "20b011282b1ac64b792b1b265199f695",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-dscBiet/static/media/flutter.89e16106.svg"
   },
   {
-    "revision": "1d1f5e8add975243c7663753515251ea",
-    "url": "/reactjs-dscBiet/static/media/ideaImage.1d1f5e8a.svg"
+    "revision": "56481170b531fc5d573ac25d937c5d3a",
+    "url": "/reactjs-dscBiet/static/media/ideaImage.56481170.svg"
   },
   {
-    "revision": "f5f6e3202de1a2fe1495f00abb3a80e9",
-    "url": "/reactjs-dscBiet/static/media/java.f5f6e320.svg"
+    "revision": "6a6d63de4f13f379d087cd7e0bade044",
+    "url": "/reactjs-dscBiet/static/media/java.6a6d63de.svg"
   },
   {
     "revision": "fa59b833369f41c2586d4892c503508b",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-dscBiet/static/media/kamal.acf672ee.jpeg"
   },
   {
-    "revision": "771c96353ece005ec93b34b8d58d7320",
-    "url": "/reactjs-dscBiet/static/media/nextjs.771c9635.svg"
+    "revision": "e48e27f9d0eab488e665d8513578dfb5",
+    "url": "/reactjs-dscBiet/static/media/nextjs.e48e27f9.svg"
   },
   {
     "revision": "a1467103f206de3746c2fb7e149e4f63",
