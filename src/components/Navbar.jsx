@@ -25,7 +25,7 @@ export default function Navbar() {
       <IconContext.Provider value={{ color: " gray" }}>
         <div className="navbar">
           <div className="navbar-container container">
-            <NavLink to="/" className="navbar-logo" onClick={closeMoblileMenu}>
+            <NavLink to="/reactjs-dscBiet" className="navbar-logo" onClick={closeMoblileMenu}>
               <img className="logo_img" src={logo} alt="dsc logo" /> DSC BIET
             </NavLink>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/"
+                  to="/reactjs-dscBiet"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                   aria-current="page"
