@@ -15,7 +15,7 @@ export default function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/reactjs-dscBiet" exact component={Home} />
           <Route path="/event" exact component={Event} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/team" exact component={Team} />
