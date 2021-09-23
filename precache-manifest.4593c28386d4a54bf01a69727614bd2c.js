@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d235c2829a9718182e3f3512b0ca3119",
+    "revision": "79eae6daea469b9110b774cf9336e4bf",
     "url": "/reactjs-dscBiet/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-dscBiet/static/css/2.c140bb19.chunk.css"
   },
   {
-    "revision": "b02c2801d1fe3d1ec775",
+    "revision": "c3c4ffb458b019dc27e8",
     "url": "/reactjs-dscBiet/static/css/main.dcfe398b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-dscBiet/static/js/2.a06344ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b02c2801d1fe3d1ec775",
-    "url": "/reactjs-dscBiet/static/js/main.8b80de3b.chunk.js"
+    "revision": "c3c4ffb458b019dc27e8",
+    "url": "/reactjs-dscBiet/static/js/main.39c75c18.chunk.js"
   },
   {
     "revision": "a514198e2a148c8e16e0",
