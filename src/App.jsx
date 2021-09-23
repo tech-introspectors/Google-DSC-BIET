@@ -16,10 +16,10 @@ export default function App() {
         <Navbar />
         <Switch>
           <Route path="/reactjs-dscBiet" exact component={Home} />
-          <Route path="/event" exact component={Event} />
-          <Route path="/projects" exact component={Projects} />
-          <Route path="/team" exact component={Team} />
-          <Route path="/contact" exact component={Contact} />
+          <Route path="/reactjs-dscBiet/event" exact component={Event} />
+          <Route path="/reactjs-dscBiet/projects" exact component={Projects} />
+          <Route path="/reactjs-dscBiet/team" exact component={Team} />
+          <Route path="/reactjs-dscBiet/contact" exact component={Contact} />
         </Switch>
       </Router>
     </>
