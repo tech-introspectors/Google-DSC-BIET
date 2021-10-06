@@ -24,7 +24,7 @@ export default function Team() {
       <div className="container contact_container" id = "star-five ">
         <h2 className = "text-center custom_heading">Our Team</h2>
         <div className = "border_animation"></div>
-        <p className = "text-center">By the Students, For the Students</p>
+        <p className = "text-center">Meet the core team behind Google Developer Students Club, BIET.</p>
 
         {/* // rendering team members details // */}
         <div className = "container">

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Team_Members = (props) => {
   return (
@@ -14,7 +14,7 @@ const Team_Members = (props) => {
           <div className="d-flex justify-content-center">
             <div>
               <a className="social_media" href="#" target="_black">
-                <FaFacebookF className="icon" />
+                <FaLinkedinIn className="icon" />
               </a>
             </div>
 

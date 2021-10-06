@@ -26,8 +26,8 @@ const Footer = () => {
           <div className="border_animation"></div>
           <p className="text-center">
             By subscribing to the newsletter, you will be able to get constant
-            update regarding <br />
-            workshops, events from us
+            updates regarding <br />
+            workshops, events from us.
           </p>
 
           <div className="col-lg-12 col-sm-12 custome_form">
@@ -48,31 +48,25 @@ const Footer = () => {
             />
           </div>
 
-          <Link to="/" className="link logo_img_">
+          <Link to="#" className="link logo_img_">
               <img src = {logo} alt = "logo" />
-              <h1 className="text-center logo">DSC BIET</h1>
+              <h1 className="text-center logo">GDSC BIET</h1>
           </Link>
 
           <div className="d-flex justify-content-center">
             <div>
-              <a className="social_media" href="#" target="_black">
-                <FaFacebookF className="icon" />
-              </a>
-            </div>
-
-            <div>
-              <a className="social_media" href="#" target="_black">
+              <a className="social_media" href="https://twitter.com/gdscbiet" target="_black">
                 <FaTwitter className="icon" />
               </a>
             </div>
 
             <div>
-              <a className="social_media" href="#" target="_black">
+              <a className="social_media" href="https://instagram.com/gdsc.biet/" target="_black">
                 <FaInstagram className="icon" />
               </a>
             </div>
             <div>
-              <a className="social_media" href="#" target="_black">
+              <a className="social_media" href="https://github.com/GDSC-BIET" target="_black">
                 <FaGithub className="icon" />
               </a>
             </div>
@@ -81,7 +75,7 @@ const Footer = () => {
         <div className="bottom_footer">
           <h5 className="text-center">
             Developed with <span role = "img">❤️</span> by
-            Introspctors
+            Introspectors
           </h5>
         </div>
       </div>

@@ -1,12 +1,12 @@
 export const TitleCenter1 = {
   title: "Technologies",
   description:
-    "These are some of the technologies we mainly try to focus at DSC BIET",
+    "These are some of the technologies we mainly try to focus at GDSC BIET",
 };
 
 export const TitleCenter2 = {
   title: "Recent Projects",
-  description: "The below projects are some of our recent projects in DSC BIET",
+  description: "The below projects are some of our recent projects in GDSC BIET",
 };
 
 export const TitleCenter3 = {

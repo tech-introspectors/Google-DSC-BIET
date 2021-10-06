@@ -30,7 +30,7 @@ export default function Navbar() {
               className="navbar-logo"
               onClick={closeMoblileMenu}
             >
-              <img className="logo_img" src={logo} alt="dsc logo" /> DSC BIET
+              <img className="logo_img" src={logo} alt="dsc logo" /> GDSC BIET
             </NavLink>
 
             <div className="menu-icon" onClick={handleClick}>
