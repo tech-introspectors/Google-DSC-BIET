@@ -18,22 +18,22 @@ const MembersData = [
   },
 
   {
-    img: img,
+    img: Rithvik,
     memberName: "Pavan Rithvik",
     profession: "Design team Lead",
   },
     {
-    img: img1,
+    img: Jahnavi,
     memberName: "Jahnavi Manne",
     profession: "Management Lead",
   },
   {
-    img: img,
+    img: Tejaswi,
     memberName: "Eleswarapu Tejaswi",
     profession: "Public Relations Lead",
   },
     {
-    img: img1,
+    img: Amaresh,
     memberName: "Amaresh Prasad",
     profession: "Management Co-Lead",
   },
