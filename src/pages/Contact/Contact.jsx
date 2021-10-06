@@ -54,7 +54,7 @@ export default function Contact() {
 
               <div className="_heading">
                 <h2>Email</h2>
-                <p>teamintrospectors@gmail.com</p>
+                <p>gdscbiet@gmail.com</p>
               </div>
             </div>
 
@@ -65,7 +65,7 @@ export default function Contact() {
 
               <div className="_heading">
                 <h2>Address</h2>
-                <p>Ibrahimpatnam, BIET</p>
+                <p>Ibrahimpatnam, Hyderabad.</p>
               </div>
             </div>
           </div>
