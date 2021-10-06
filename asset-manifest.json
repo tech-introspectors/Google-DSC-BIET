@@ -1,23 +1,28 @@
 {
   "files": {
     "main.css": "/reactjs-dscBiet/static/css/main.dcfe398b.chunk.css",
-    "main.js": "/reactjs-dscBiet/static/js/main.39c75c18.chunk.js",
-    "main.js.map": "/reactjs-dscBiet/static/js/main.39c75c18.chunk.js.map",
+    "main.js": "/reactjs-dscBiet/static/js/main.8cf6e655.chunk.js",
+    "main.js.map": "/reactjs-dscBiet/static/js/main.8cf6e655.chunk.js.map",
     "runtime-main.js": "/reactjs-dscBiet/static/js/runtime-main.cd0ef026.js",
     "runtime-main.js.map": "/reactjs-dscBiet/static/js/runtime-main.cd0ef026.js.map",
     "static/css/2.c140bb19.chunk.css": "/reactjs-dscBiet/static/css/2.c140bb19.chunk.css",
-    "static/js/2.a06344ca.chunk.js": "/reactjs-dscBiet/static/js/2.a06344ca.chunk.js",
-    "static/js/2.a06344ca.chunk.js.map": "/reactjs-dscBiet/static/js/2.a06344ca.chunk.js.map",
+    "static/js/2.53855848.chunk.js": "/reactjs-dscBiet/static/js/2.53855848.chunk.js",
+    "static/js/2.53855848.chunk.js.map": "/reactjs-dscBiet/static/js/2.53855848.chunk.js.map",
     "index.html": "/reactjs-dscBiet/index.html",
-    "precache-manifest.4593c28386d4a54bf01a69727614bd2c.js": "/reactjs-dscBiet/precache-manifest.4593c28386d4a54bf01a69727614bd2c.js",
+    "precache-manifest.a8ba94a72a545f5c8a0a553f5fe9460e.js": "/reactjs-dscBiet/precache-manifest.a8ba94a72a545f5c8a0a553f5fe9460e.js",
     "service-worker.js": "/reactjs-dscBiet/service-worker.js",
     "static/css/2.c140bb19.chunk.css.map": "/reactjs-dscBiet/static/css/2.c140bb19.chunk.css.map",
     "static/css/main.dcfe398b.chunk.css.map": "/reactjs-dscBiet/static/css/main.dcfe398b.chunk.css.map",
-    "static/js/2.a06344ca.chunk.js.LICENSE.txt": "/reactjs-dscBiet/static/js/2.a06344ca.chunk.js.LICENSE.txt",
+    "static/js/2.53855848.chunk.js.LICENSE.txt": "/reactjs-dscBiet/static/js/2.53855848.chunk.js.LICENSE.txt",
+    "static/media/Amaresh.jpg": "/reactjs-dscBiet/static/media/Amaresh.68eb5617.jpg",
     "static/media/Feedback.svg": "/reactjs-dscBiet/static/media/Feedback.4b73a2a5.svg",
+    "static/media/Jahnavi.jpg": "/reactjs-dscBiet/static/media/Jahnavi.3143b6a7.jpg",
+    "static/media/Pavan.jpg": "/reactjs-dscBiet/static/media/Pavan.bdb0c1d4.jpg",
     "static/media/Project-team.svg": "/reactjs-dscBiet/static/media/Project-team.1ba12749.svg",
+    "static/media/Rithvik.jpg": "/reactjs-dscBiet/static/media/Rithvik.2a3616de.jpg",
     "static/media/Startup-1.svg": "/reactjs-dscBiet/static/media/Startup-1.1e3046c1.svg",
     "static/media/Startup-2.svg": "/reactjs-dscBiet/static/media/Startup-2.fa3f045c.svg",
+    "static/media/Tejaswi.jpg": "/reactjs-dscBiet/static/media/Tejaswi.bcd5c121.jpg",
     "static/media/amazon-web-services.svg": "/reactjs-dscBiet/static/media/amazon-web-services.20b01128.svg",
     "static/media/dsc_logo.png": "/reactjs-dscBiet/static/media/dsc_logo.bd954cee.png",
     "static/media/firebase.svg": "/reactjs-dscBiet/static/media/firebase.63a193f6.svg",
@@ -25,9 +30,8 @@
     "static/media/ideaImage.svg": "/reactjs-dscBiet/static/media/ideaImage.56481170.svg",
     "static/media/java.svg": "/reactjs-dscBiet/static/media/java.6a6d63de.svg",
     "static/media/javascript.svg": "/reactjs-dscBiet/static/media/javascript.fa59b833.svg",
-    "static/media/kamal.jpeg": "/reactjs-dscBiet/static/media/kamal.acf672ee.jpeg",
+    "static/media/kamal.jpg": "/reactjs-dscBiet/static/media/kamal.cdcd8be4.jpg",
     "static/media/nextjs.svg": "/reactjs-dscBiet/static/media/nextjs.e48e27f9.svg",
-    "static/media/pavan.jpeg": "/reactjs-dscBiet/static/media/pavan.a1467103.jpeg",
     "static/media/python.svg": "/reactjs-dscBiet/static/media/python.0b948ab5.svg",
     "static/media/reactjs.svg": "/reactjs-dscBiet/static/media/reactjs.1d99931b.svg",
     "static/media/robot.svg": "/reactjs-dscBiet/static/media/robot.6ed5dded.svg"
@@ -35,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.cd0ef026.js",
     "static/css/2.c140bb19.chunk.css",
-    "static/js/2.a06344ca.chunk.js",
+    "static/js/2.53855848.chunk.js",
     "static/css/main.dcfe398b.chunk.css",
-    "static/js/main.39c75c18.chunk.js"
+    "static/js/main.8cf6e655.chunk.js"
   ]
 }
